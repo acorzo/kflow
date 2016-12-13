@@ -51,7 +51,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.0.0.alpha5'
 
 # Library to make absolutely positioned elements attach to elements in the page
-
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.1'
 end
+
+# Icons fonts.
+gem 'font-awesome-rails', '~> 4.7'

@@ -46,3 +46,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# HTML, CSS, and JavaScript framework for developing responsive
+gem 'bootstrap', '~> 4.0.0.alpha5'
+
+# Library to make absolutely positioned elements attach to elements in the page
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.1'
+end

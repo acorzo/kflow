@@ -1,8 +1,8 @@
 class PagesController < ApplicationController
-  def home
+  def index
   end
 
-  def empresa
+  def nosotros
   end
 
   def faq
@@ -12,5 +12,20 @@ class PagesController < ApplicationController
   end
 
   def servicio
+  end
+  
+  def story
+  end
+  
+  def company
+  end
+  
+  def panel
+  end
+  
+  def lab
+  end
+  
+  def kflow
   end
 end

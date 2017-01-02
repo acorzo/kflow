@@ -1,0 +1,32 @@
+<nav class="navbar navbar-dark bg-primary">
+  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+    &#9776;
+  </button>
+  <div class="collapse navbar-toggleable-xs container" id="exCollapsingNavbar2">
+    <strong><%= link_to "ThinkFlow", root_path, class:" nav-link navbar-brand" %></strong>
+    <ul class="nav navbar-nav">
+      <li class="nav-item">
+         <%= link_to "Proyectos", root_path, class:"nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Desafios", lab_path, class:"nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Perfil", panel_path, class:"nav-link" %>
+      </li>
+      <li class="nav-item">
+          <%= link_to "Perlas", root_path, class:"nav-link" %>
+      </li>
+      <li class="nav-item">
+         <%= link_to "Story", story_path, class:"nav-link" %>
+      </li>
+      <li class="nav-item">
+         <%= link_to "Empresas", root_path, class:"nav-link" %>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav float-xs-right">
+      <li class="nav-item"><%= link_to "Desconectar", root_path, :method => :delete, class:"nav-link" %></li>
+      <li class="nav-item active"><%= link_to "Registrarse", root_path, class:"nav-link" %></li>
+      <li class="nav-item"><%= link_to "Conectar", root_path, class:"nav-link" %></li>
+    </div>
+</nav>

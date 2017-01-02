@@ -1,0 +1,42 @@
+//Font google
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto:300');
+// fuente body
+body {
+  font-family: 'Roboto', sans-serif;
+}
+// Nav
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+//alto del jumbotron
+section#intro {
+  .jumbotron {
+    // height: 100vh;
+    border-radius: 0rem;
+  }
+}
+section#intro {
+  h1, h2, h3 {
+    color: #FFF;
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+  }
+}
+//Welcome imagen
+#img-header {
+  background-image: image-url('bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 35% 35%;
+  height: 75vh;
+}
+
+// centrado vertical
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}

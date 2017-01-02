@@ -57,3 +57,6 @@ end
 
 # Icons fonts.
 gem 'font-awesome-rails', '~> 4.7'
+
+# Flexible authentication solution for Rails with Warden
+gem 'devise'

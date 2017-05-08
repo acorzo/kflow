@@ -1,11 +1,13 @@
 class PagesController < ApplicationController
   def index
+    @page_tittle = "Desaprendizaje Creativo"
+   
   end
 
-  def nosotros
+  def lab
   end
-
-  def faq
+  
+  def about
   end
 
   def privacidad
@@ -21,11 +23,16 @@ class PagesController < ApplicationController
   end
   
   def panel
+    
   end
   
-  def lab
-  end
   
   def kflow
+  end
+  
+  def project
+  end
+  
+  def challenge
   end
 end

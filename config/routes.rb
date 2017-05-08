@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_for :users
   root 'pages#index'
 
-  get 'pages/nosotros'
+  get 'pages/about'
   get 'pages/faq'
   get 'pages/privacidad'
   get 'pages/servicio'
@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get 'panel' => 'pages#panel'
   get 'lab' => 'pages#lab'
   get 'kflow' => 'pages#kflow'
+  get 'challenge' => 'pages#challenge'
+  get 'project' => 'pages#project'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

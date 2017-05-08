@@ -48,7 +48,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # HTML, CSS, and JavaScript framework for developing responsive
-gem 'bootstrap', '~> 4.0.0.alpha5'
+gem 'bootstrap', '~> 4.0.0.alpha6'
 
 # Library to make absolutely positioned elements attach to elements in the page
 source 'https://rails-assets.org' do

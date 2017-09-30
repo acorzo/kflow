@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<div class="col">
+  <br><h3 class="text-center"><span>5</span> desafíos disponibles para tí</h3><br>
+</div>
+
+  <tbody>
+    <div class="row">
+    <% @challenges.each do |challenge| %>
+      <div class="col-sm-4">
+        <div class="card border-primary mb-3">
+          <div class="card-body">
+            <h4 class="card-title text-center"><%= challenge.name %></h4>
+            <%= image_tag challenge.thumbnail, class:"img-fluid" %>
+            <p class="card-text"><%= challenge.description %></p>
+            <% link_to 'Edit', edit_challenge_path(challenge) %>
+            <%= link_to 'Ayudar', 'https://www.dropbox.com/s/t6ugruh5qxdyywv/Boda.zip?dl=1', class:"btn btn-primary btn-lg btn-block" %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    </div>
+     
+<%= link_to 'New Challenge', new_challenge_path %>

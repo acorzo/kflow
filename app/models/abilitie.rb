@@ -1,0 +1,2 @@
+class Abilitie < ApplicationRecord
+end

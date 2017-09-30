@@ -2,10 +2,8 @@ source 'https://rubygems.org'
 
 # Especificar la versión de ruby
 ruby "2.4.0"
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0', '>= 5.0.2'
-
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -54,17 +52,11 @@ group :production do
  
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 # HTML, CSS, and JavaScript framework for developing responsive
-gem 'bootstrap', '~> 4.0.0.alpha6'
-
-# Library to make absolutely positioned elements attach to elements in the page
-source 'https://rails-assets.org' do
-  gem 'rails-assets-tether', '>= 1.1.1'
-end
-
+gem 'bootstrap', '~> 4.0.0.beta'
+# Bootstrap position
+gem 'popper_js', '~> 1.11.1'
 # Icons fonts.
 gem 'font-awesome-rails', '~> 4.7'
-
 # Flexible authentication solution for Rails with Warden
 gem 'devise'
